@@ -1,0 +1,238 @@
+body {
+  font-family: "Helvetica Neue";
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+.wrap {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.wrap .container {
+  line-height: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 1200px;
+}
+
+.wrap .container .SNS {
+  width: 30%;
+}
+
+.wrap .container .SNS a {
+  margin-right: 10px;
+}
+
+.wrap .container .SNS a img:hover {
+  opacity: 0.5;
+}
+
+.wrap .container .menu {
+  width: 30%;
+  text-align: right;
+}
+
+.wrap .container .menu img:hover {
+  opacity: 0.5;
+}
+
+.wrap .container .header-logo {
+  text-align: center;
+  width: 30%;
+}
+
+.wrap .container .header-logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrap .container .header-logo a img {
+  width: 100%;
+}
+
+.wrap .container .header-logo a img:hover {
+  opacity: 0.5;
+}
+
+.wrap .menu-list {
+  display: none;
+}
+
+.wrap .menu-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.wrap .menu-list ul li {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 20px;
+  font-size: x-large;
+}
+
+.wrap .menu-list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrap .menu-list ul li:hover {
+  opacity: 0.5;
+}
+
+.wrap .content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrap .content .title {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrap .content .title a:hover {
+  opacity: 0.5;
+}
+
+.wrap .content .title h1 {
+  text-align: center;
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .content .title h1::before {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-top: 1px solid black;
+  margin-right: 2rem;
+}
+
+.wrap .content .title h1::after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-top: 1px solid black;
+  margin-left: 2rem;
+}
+
+.wrap .content .disc-box ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+}
+
+.wrap .content .disc-box ul li {
+  margin: 10px 0 10px 55px;
+  list-style: none;
+}
+
+.wrap .content .disc-box ul li a {
+  text-decoration: none;
+}
+
+.wrap .content .disc-box ul li a .disc {
+  margin-bottom: 30px;
+  width: 260px;
+}
+
+.wrap .content .disc-box ul li a .disc img {
+  width: 100%;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.wrap .content .disc-box ul li a .disc img:hover {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.wrap .content .disc-box ul li a .disc-item-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.wrap .content .disc-box ul li a .disc-item-box .disc-maru {
+  font-size: 6px;
+  line-height: 50px;
+  width: 60px;
+  height: 60px;
+  color: #c6c6c6;
+  text-align: center;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+}
+
+.wrap .content .disc-box ul li a .disc-item-box .disc-text-box {
+  width: 190px;
+  margin-left: 10px;
+}
+
+.wrap .content .disc-box ul li a .disc-item-box .disc-text-box .disc-text {
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  color: #a9a9a9;
+}
+
+.wrap .content .disc-box ul li a .disc-item-box .disc-text-box .disc-date {
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  font-size: xx-small;
+  color: #a9a9a9;
+}
+
+.wrap .footer {
+  width: 800px;
+  line-height: 5;
+  margin: 0 auto;
+}
+
+.wrap .footer p {
+  text-align: center;
+  font-size: large;
+}
+/*# sourceMappingURL=dic.css.map */
