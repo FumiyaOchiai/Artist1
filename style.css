@@ -108,6 +108,7 @@ body {
 .wrap .main-container .mv {
   width: 1200px;
   padding-top: 20px;
+  overflow: hidden;
 }
 
 .wrap .main-container .mv h1 {
@@ -155,18 +156,6 @@ body {
 
 .wrap .main-container .mv .swiper-container .swiper-slide:hover {
   opacity: 0.5;
-}
-
-.wrap .main-container .mv .swiper-container .swiper-button-next {
-  padding: 0;
-  background-color: black;
-  color: white;
-}
-
-.wrap .main-container .mv .swiper-container .swiper-button-next .swiper-button-prev {
-  padding: 0;
-  background-color: black;
-  color: white;
 }
 
 .wrap .main-container .content {
